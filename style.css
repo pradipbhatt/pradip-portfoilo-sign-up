@@ -1,0 +1,37 @@
+
+.para1{
+    color:c ;
+}
+
+.body{
+    color: #A9A9B3 ;
+    background-color:rgb(28, 25, 25);
+}
+img{
+    align-items: center;
+    align-self: center;
+    display: flex;
+    height: 450px;
+    width:350px;
+}
+img:hover{
+    transform:scale(1.1);
+   transition: ease-in-out;
+   box-shadow: 3px 4px 5px  rgb(57, 36, 36);
+   margin-bottom: 30px;
+}
+
+h1{
+    color:#A9A9B3 ;
+}
+h1:hover{
+    color:#444457;
+    border:0.5px dashed black;
+}
+
+.computer img{
+    /* border: 3px solid red; */
+    width: fit-content;
+}
+
+.post-content p{text-align:justify;word-wrap:break-word}
